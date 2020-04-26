@@ -69,7 +69,7 @@ function updateRow(){ //update values of selected row from values from form
     customerBalanceList[selectedRow][2]=document.getElementById("balanceCustomer").value==""?customerBalanceList[selectedRow][2]:document.getElementById("balanceCustomer").value
     customerBalanceList[selectedRow][4]=document.getElementById("balanceAmount").value==""?customerBalanceList[selectedRow][4]:document.getElementById("balanceAmount").value
     customerBalanceList[selectedRow][5]=document.getElementById("balanceDebit").value==""?customerBalanceList[selectedRow][5]:document.getElementById("balanceDebit").value
-    customerBalanceList[selectedRow][6]=document.getElementById("balanceDebit").value==""?customerBalanceList[selectedRow][6]:document.getElementById("balanceCredit").value
+    customerBalanceList[selectedRow][6]=document.getElementById("balanceCredit").value==""?customerBalanceList[selectedRow][6]:document.getElementById("balanceCredit").value
 
     customerBalanceList[selectedRow][7]=document.getElementById("balancePaid").checked?"Yes":"No"
     
